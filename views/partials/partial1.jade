@@ -1,0 +1,13 @@
+h2 Total: {{getTotal()}}
+ul.list-group
+  each item in items
+    li.list-group-item
+      input(type='checkbox')
+      span.done-{{item.done}}
+        | #{item.text}
+form.form-horizontal(action="/save", method="post")
+  input(type='text', ng-model='formItemText', ng-model-instant='ng-model-instant', name='formItemText')
+  button.btn.btn-success
+    i.glyphicon.glyphicon-plus
+    | Add
+
