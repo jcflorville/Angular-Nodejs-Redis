@@ -1,5 +1,4 @@
 #Angular-Nodejs-Redis
-==========
 
 Esto es un repositorio, donde se mezcla Angular (http://angularjs.org/), NodeJS (http://nodejs.org/) y Redis (http://redis.io/), para la creación de una pequeña aplicación, donde es posible agregar tareas a un lista.
 
@@ -22,7 +21,7 @@ Hacemos clone del repositorio:
 	
 	$ git clone git@github.com:jcflorville/Angular-Nodejs-Redis.git
 
-Accedemos a la carpeta e instalamos la dependicias:
+Accedemos a la carpeta e instalamos las dependicias:
 
 	$ cd Angular-Nodejs-Redis
 	$ npm install
